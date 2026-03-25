@@ -2,6 +2,59 @@
   "framework_version": "bsaf-v1.0",
   "bs_score": 4.9,
   "bs_rating": "Mostly Credible",
-  "scored_at": "2026-03-25T14:12:05.161975+00:00",
-  "flagged_for_debate": false
+  "scored_at": "2026-03-25T14:19:26Z",
+  "scoring_method": "heuristic",
+  "career_angle": "Even legitimate infrastructure companies blur marketing with technical credibility. Demand independent benchmarks and cost breakdowns before trusting vendor blog posts about their own products.",
+  "flagged_for_debate": false,
+  "dimensions": [
+    {
+      "id": "source_authority",
+      "name": "Source Authority",
+      "score": 6.5,
+      "weight": 0.15,
+      "rationale": "Fireworks is an established inference company with real technical credibility, but this is their own promotional blog—credibility on infrastructure doesn't translate to objective analysis of their own service."
+    },
+    {
+      "id": "evidence_quality",
+      "name": "Evidence Quality",
+      "score": 4.0,
+      "weight": 0.2,
+      "rationale": "References 'Artificial Analysis Kimi K2.5 Chart' without linking it. Claims 'benchmark results on par with top closed models' with zero specific benchmarks named. Mentions KL divergence as methodology but provides no actual data or reproducible metrics."
+    },
+    {
+      "id": "reproducibility",
+      "name": "Reproducibility",
+      "score": 6.0,
+      "weight": 0.15,
+      "rationale": "Cost and speed claims are testable in theory (spin up both services), but no details given on test conditions. Quality claims (visual coding, gap closure) are abstract and not reproducible from this post alone."
+    },
+    {
+      "id": "conflict_of_interest",
+      "name": "Conflict of Interest",
+      "score": 2.5,
+      "weight": 0.15,
+      "rationale": "This is Fireworks' own blog promoting Fireworks' service with zero counterargument. Every claim directly benefits their business. Major structural conflict of interest."
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "score": 6.5,
+      "weight": 0.15,
+      "rationale": "Kimi K2.5 is real, Fireworks as a fast inference provider is real. But claims about cost/speed superiority lack independent verification. The 'benchmarks miss gaps' framing is contrarian positioning without supporting evidence."
+    },
+    {
+      "id": "specificity",
+      "name": "Specificity",
+      "score": 4.5,
+      "weight": 0.1,
+      "rationale": "Mixes pseudo-specific claims ('~1/10 cost', '2-3x speed') with vague hand-waving ('unprecedented visual coding quality', 'benchmark results on par'). No baseline for comparison. Technical details (prompt formatting, tool calling) listed but not connected to actual evidence."
+    },
+    {
+      "id": "track_record",
+      "name": "Track Record",
+      "score": 6.0,
+      "weight": 0.1,
+      "rationale": "Fireworks has legitimate technical credibility, but this is marketing content, not published research. Claims like 'first to discover GPT-OSS quality bugs' are unverifiable assertion. Content cuts off mid-sentence, suggesting incompleteness."
+    }
+  ]
 }
