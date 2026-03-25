@@ -2,6 +2,59 @@
   "framework_version": "bsaf-v1.0",
   "bs_score": 7.0,
   "bs_rating": "High BS",
-  "scored_at": "2026-03-25T14:12:01.083857+00:00",
-  "flagged_for_debate": true
+  "scored_at": "2026-03-25T14:19:22Z",
+  "scoring_method": "heuristic",
+  "career_angle": "Don't let vendor blogs reshape your infra strategy. If you're evaluating distributed RL training, demand published benchmarks comparing distributed vs. single-cluster convergence times before buying the narrative.",
+  "flagged_for_debate": true,
+  "dimensions": [
+    {
+      "id": "source_authority",
+      "name": "Unknown",
+      "score": 4.0,
+      "weight": 0.0,
+      "rationale": "Fireworks AI has real engineers but this is a corporate blog post, not peer-reviewed research or independent analysis."
+    },
+    {
+      "id": "evidence_quality",
+      "name": "Unknown",
+      "score": 2.0,
+      "weight": 0.0,
+      "rationale": "No benchmarks, no training runs, no convergence data, no comparisons. Pure theoretical hand-waving about 'hot-load updates' and 'compact deltas' with zero evidence any of it works at frontier scale."
+    },
+    {
+      "id": "reproducibility",
+      "name": "Unknown",
+      "score": 2.0,
+      "weight": 0.0,
+      "rationale": "Nothing to reproduce. No methodology, no architecture details, no code, no experimental setup. Just claims."
+    },
+    {
+      "id": "conflict_of_interest",
+      "name": "Unknown",
+      "score": 2.0,
+      "weight": 0.0,
+      "rationale": "Fireworks sells distributed compute infrastructure. They are literally arguing that you don't need what they don't sell (mega clusters) and instead need what they do sell. Textbook conflict."
+    },
+    {
+      "id": "consensus",
+      "name": "Unknown",
+      "score": 4.0,
+      "weight": 0.0,
+      "rationale": "OpenAI, Google DeepMind, Meta, and xAI are all building mega clusters. Fireworks is arguing against the revealed preferences of every frontier lab with actual results."
+    },
+    {
+      "id": "specificity",
+      "name": "Unknown",
+      "score": 3.0,
+      "weight": 0.0,
+      "rationale": "Buzzword-heavy ('hot-load updates,' 'rollout fleets stay warm,' 'compact deltas') but no specific numbers, architectures, or implementation details."
+    },
+    {
+      "id": "track_record",
+      "name": "Unknown",
+      "score": 5.0,
+      "weight": 0.0,
+      "rationale": "Fireworks is a legitimate inference company, but they have not produced a frontier model using this approach. The thesis is unproven by their own results."
+    }
+  ]
 }
