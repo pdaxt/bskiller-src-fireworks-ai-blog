@@ -1,12 +1,8 @@
 {
   "id": "b3a97a5d-ace4-4cd3-83a3-ad49d9cf3d97",
-  "title": "Frontier RL Is Cheaper Than You Think",
-  "source_url": "https://fireworks.ai/blog/frontier-rl-is-cheaper-than-you-think",
-  "source_name": "Fireworks AI Blog",
   "published_at": null,
   "scraped_at": "2026-03-24 04:14:05",
-  "bs_score": 5.8,
-  "bs_rating": "Mixed Evidence",
-  "approved": false,
-  "author_name": null
+  "source": "Fireworks AI Blog",
+  "title": "Frontier RL Is Cheaper Than You Think",
+  "url": "https://fireworks.ai/blog/frontier-rl-is-cheaper-than-you-think"
 }
