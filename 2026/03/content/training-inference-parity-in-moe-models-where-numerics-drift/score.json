@@ -2,6 +2,59 @@
   "framework_version": "bsaf-v1.0",
   "bs_score": 3.7,
   "bs_rating": "Mostly Credible",
-  "scored_at": "2026-03-25T14:12:03.794054+00:00",
-  "flagged_for_debate": false
+  "scored_at": "2026-03-25T14:19:25Z",
+  "scoring_method": "heuristic",
+  "career_angle": "Valuable only if you're deploying Qwen/Kimi/DeepSeek inference at scale. For most engineers, this is a niche ops problem that won't touch your work; read it to sound smart in ML rooms, not because you need to fix it.",
+  "flagged_for_debate": false,
+  "dimensions": [
+    {
+      "id": "source_authority",
+      "name": "Source Authority",
+      "score": 8.0,
+      "weight": 0.15,
+      "rationale": "Fireworks AI is a legitimate, well-funded inference optimization company with real customers and deployed infrastructure. Their engineers actually run these models in production."
+    },
+    {
+      "id": "evidence_quality",
+      "name": "Evidence Quality",
+      "score": 6.5,
+      "weight": 0.2,
+      "rationale": "Mentions specific models and optimization types (kernel fusions, all-reduce, routed experts), but the provided excerpt is truncated. Without the full post and code examples/benchmarks, it reads more narrative than evidence-driven."
+    },
+    {
+      "id": "reproducibility",
+      "name": "Reproducibility",
+      "score": 6.0,
+      "weight": 0.15,
+      "rationale": "Hard to verify unless you control Kimi K2.5, Qwen3.5-MoE, and a custom serving stack. The numerical drift phenomenon itself is real and verifiable in principle, but inaccessible to most readers."
+    },
+    {
+      "id": "conflict_of_interest",
+      "name": "Conflict of Interest",
+      "score": 2.0,
+      "weight": 0.15,
+      "rationale": "Glaring conflict. This is a case study in why Fireworks' platform is necessary — they found these bugs, fixed them, now readers should care about their solution. Pure product positioning masquerading as technical education."
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "score": 7.0,
+      "weight": 0.15,
+      "rationale": "MoE numerical parity is a real, acknowledged problem in the ML community (see DeepSeek V3 papers, Qwen research). However, it's niche expertise—only practitioners at scale deal with it. Not mainstream consensus, but not fringe either."
+    },
+    {
+      "id": "specificity",
+      "name": "Specificity",
+      "score": 8.5,
+      "weight": 0.1,
+      "rationale": "Extremely specific. Names actual architectures (Kimi K2.5, Qwen3.5-MoE, DeepSeek V3), optimization techniques (kernel fusions, shared expert pathways, all-reduce), and failure modes (RLHF/GRPO reward exploitation). Claims are falsifiable."
+    },
+    {
+      "id": "track_record",
+      "name": "Track Record",
+      "score": 7.0,
+      "weight": 0.1,
+      "rationale": "Fireworks has credibility—legitimate infrastructure, real customers, engineers who've shipped serving layers. However, they're also selling a product, so this piece is inherently biased toward their interests."
+    }
+  ]
 }
